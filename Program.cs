@@ -9,11 +9,13 @@ List<Pessoa> hospedes = new List<Pessoa>();
 Pessoa p1 = new Pessoa(nome: "Hóspede 1");
 Pessoa p2 = new Pessoa(nome: "Hóspede 2");
 
+
 hospedes.Add(p1);
 hospedes.Add(p2);
 
+
 // Cria a suíte
-Suite suite = new Suite(tipoSuite: "Premium", capacidade: 2, valorDiaria: 30);
+Suite suite = new Suite(tipoSuite: "Premium", capacidade: 3, valorDiaria: 30);
 
 // Cria uma nova reserva, passando a suíte e os hóspedes
 Reserva reserva = new Reserva(diasReservados: 5);
